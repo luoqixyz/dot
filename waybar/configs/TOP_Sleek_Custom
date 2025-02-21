@@ -1,0 +1,40 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// Sleek 
+
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  ],
+"layer": "top",
+"position": "top",
+"height": 20,
+"margin-left": 10,
+"margin-right": 10,
+"margin-top": 2,
+	
+"modules-left": [
+  "group/notify",
+	"custom/separator#blank",
+	"idle_inhibitor",
+	"custom/separator#blank",
+	"hyprland/window",
+],
+
+"modules-center": [
+	"hyprland/workspaces#kanji",
+],
+		
+"modules-right": [
+  "custom/cava_mviz",
+	"tray",
+	"custom/separator#blank",
+	"pulseaudio",
+	"custom/separator#blank",
+	"clock"
+	],
+
+}
