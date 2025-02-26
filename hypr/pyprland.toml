@@ -2,10 +2,7 @@
 
 [pyprland]
 
-plugins = [
-  "scratchpads",
-  "magnify",
-]
+plugins = ["scratchpads", "magnify"]
 
 [scratchpads.term]
 animation = "fromTop"
