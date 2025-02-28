@@ -1,0 +1,8 @@
+[core]
+	quotepath = false
+	editor = nvim
+[user]
+	name = luoqi
+	email = luoqi9421@163.com
+[init]
+	defaultBranch = main
