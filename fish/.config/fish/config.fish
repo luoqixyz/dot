@@ -29,7 +29,7 @@ function updatesystem
     sudo pacman -Syyu --noconfirm && yay -Syyu --noconfirm
 end
 
-set -gx ALL_PROXY http://127.0.0.1:7890
+set -gx ALL_PROXY http://127.0.0.1:7897
 set -gx EDITOR nvim
 set -gx VISUAL neovide
 set -gx PATH $HOME/.local/bin $PATH
