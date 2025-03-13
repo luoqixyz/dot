@@ -4,7 +4,8 @@
 
 # Define preferred text editor and terminal
 # edit=${EDITOR:-nano}
-edit=neovide
+edit=nvim
+tty=kitty
 
 # Paths to configuration directories
 rofi_theme="~/.config/rofi/project-edit.rasi"
@@ -30,7 +31,7 @@ main() {
   esac
 
   # Open the selected file in the terminal with the text editor
-  $edit "$file"
+  $tty -d "$file" -e $edit .
 }
 
 # Check if rofi is already running

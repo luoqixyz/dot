@@ -9,3 +9,9 @@ animation = "fromTop"
 command = "kitty --class kitty-dropterm"
 class = "kitty-dropterm"
 size = "75% 60%"
+
+[scratchpads.file-manager]
+animation = "fromTop"
+command = "nautilus"
+class = "nautilus-dropfile"
+size = "75% 60%"
