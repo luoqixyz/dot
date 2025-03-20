@@ -1,8 +1,8 @@
-abbr ls exa --icons -l
-abbr ll exa --icons -la
-abbr vim nvim
-abbr dnfi sudo dnf install -y
-abbr dnfr sudo dnf remove
-abbr c clear
-abbr vfish nvim ~/.config/fish
-abbr vdot nvim ~/.dotfiles
+alias ls "exa --icons -l"
+alias ll "exa --icons -la"
+alias vim nvim
+#alias dnfi sudo dnf install -y
+#alias dnfr sudo dnf remove
+alias c clear
+alias vfish "nvim ~/.config/fish"
+alias hx helix
