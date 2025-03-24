@@ -6,3 +6,4 @@ alias vim nvim
 alias c clear
 alias vfish "nvim ~/.config/fish"
 alias hx helix
+alias zj zellij

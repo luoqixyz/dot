@@ -67,7 +67,7 @@
 	},
 },
 // Kanji / Japanese style
-"hyprland/workspaces#kanji": {
+"hyprland/workspaces#kan": {
 	"disable-scroll": true,
 	"show-special": false,
 	"all-outputs": true,
@@ -86,6 +86,27 @@
 		"8": "八",
 		"9": "九",
 		"10": "十",
+	}
+},
+"hyprland/workspaces#kanji": {
+	"disable-scroll": true,
+	"show-special": false,
+	"all-outputs": true,
+	"format": "{icon}",
+    "persistent-workspaces": {
+      "*": 5
+	},
+	"format-icons": {
+		"1": "壹",
+		"2": "贰",
+		"3": "叁",
+		"4": "肆",
+		"5": "伍",
+		"6": "陆",
+		"7": "柒",
+		"8": "捌",
+		"9": "玖",
+		"10": "拾",
 	}
 },
 // for Camilla or Spanish
