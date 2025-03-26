@@ -398,7 +398,7 @@
 	"ignore-list": [
 		"wofi",
 		"rofi",
-		"kitty",
+		//"kitty",
     "kitty-dropterm"
 		],
 },
