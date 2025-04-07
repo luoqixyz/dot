@@ -72,3 +72,4 @@ text/html=zen-browser.desktop
 x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop
 image/png=feh.desktop
 image/jpeg=feh.desktop
+x-scheme-handler/mihomo=mihomo-party.desktop

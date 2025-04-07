@@ -29,7 +29,12 @@ function updatesystem
     sudo pacman -Syyu --noconfirm && yay -Syyu --noconfirm
 end
 
-set -gx ALL_PROXY http://127.0.0.1:7897
+set -gx HTTP_PROXY http://127.0.0.1:7890
+set -gx HTTPS_PROXY http://127.0.0.1:7890
+set -gx ALL_PROXY http://127.0.0.1:7890
+# set -gx HTTP_PROXY http://10.1.1.22:7897
+# set -gx HTTPS_PROXY http://10.1.1.22:7897
+# set -gx ALL_PROXY http://10.1.1.22:7897
 set -gx EDITOR nvim
 set -gx VISUAL neovide
 set -gx PATH $HOME/.local/bin $PATH
@@ -39,3 +44,5 @@ set -gx HSA_OVERRIDE_GFX_VERSION 10.3.0
 fnm env --use-on-cd --shell fish | source
 # starship
 starship init fish | source
+# fzf
+fzf --fish | source

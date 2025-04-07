@@ -227,13 +227,21 @@
 
 "memory": {
 	"interval": 10,
-	"format": "{used:0.1f}G 󰾆",
-	"format-alt": "{percentage}% 󰾆",
+	"format-alt": "{used:0.1f}GB/{total:0.1f}GB 󰾆",
+	"format": "{percentage}% 󰾆",
 	"format-alt-click": "click",
 	"tooltip": true,
 	"tooltip-format": "{used:0.1f}GB/{total:0.1f}G",
 	"on-click-right": "kitty --title btop sh -c 'btop'"
 },
+"memory#2": {
+	"interval": 10,
+	"format-alt": "{swapUsed:0.1f}GB/{swapTotal:0.1f}GB ",
+  "format": "{swapPercentage}% ",
+	"format-alt-click": "click",
+
+},
+
 
 "mpris": {
 	"interval": 10,
