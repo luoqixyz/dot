@@ -7,12 +7,11 @@ EnumerateForwardKeys=
 EnumerateBackwardKeys=
 # 轮换输入法时跳过第一个输入法
 EnumerateSkipFirst=False
-# 激活输入法
-ActivateKeys=
+# 触发修饰键快捷键的时限 (毫秒)
+ModifierOnlyKeyTimeout=250
 
 [Hotkey/TriggerKeys]
-0=Super+space
-1=Zenkaku_Hankaku
+0=Shift+Shift_L
 
 [Hotkey/AltTriggerKeys]
 0=Shift_L
@@ -22,6 +21,9 @@ ActivateKeys=
 
 [Hotkey/EnumerateGroupBackwardKeys]
 0=Shift+Super+space
+
+[Hotkey/ActivateKeys]
+0=Hangul_Hanja
 
 [Hotkey/DeactivateKeys]
 0=Hangul_Romaja
