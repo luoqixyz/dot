@@ -94,7 +94,6 @@ mpv
 mpv-mpris
 nano
 nautilus
-neofetch
 neovide
 neovim
 networkmanager

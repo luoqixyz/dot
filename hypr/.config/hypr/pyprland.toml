@@ -11,7 +11,7 @@ class = "kitty-dropterm"
 size = "75% 60%"
 
 [scratchpads.file-manager]
-animation = "fromTop"
+animation = "fromLeft"
 command = "nautilus"
 class = "nautilus-dropfile"
-size = "75% 60%"
+size = "30% 90%"

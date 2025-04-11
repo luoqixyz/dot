@@ -46,3 +46,5 @@ fnm env --use-on-cd --shell fish | source
 starship init fish | source
 # fzf
 fzf --fish | source
+# zoxide
+zoxide init fish | source

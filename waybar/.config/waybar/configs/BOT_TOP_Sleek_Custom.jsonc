@@ -29,15 +29,15 @@
       "custom/cava_mviz",
       "tray",
       "custom/separator#blank",
-      "pulseaudio/slider",
+      "pulseaudio",
       "custom/separator#blank",
       "clock"
-    ],
-    "pulseaudio/slider": {
-      "min": 0,
-      "max": 100,
-      "orientation": "horizontal"
-    }
+    ]
+    // "pulseaudio/slider": {
+    //   "min": 0,
+    //   "max": 100,
+    //   "orientation": "horizontal"
+    // }
   },
   {
     "include": [
