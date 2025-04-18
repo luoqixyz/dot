@@ -271,3 +271,30 @@ youtube-music-bin
 youtube-music-bin-debug
 2025-04-10 添加了 pacman 包: neofetch
 2025-04-10 10:34 删除了 pacman 包: neofetch
+2025-04-18 19:34 添加了 pacman 包: alacritty
+docker
+fcitx5-pinyin-zhwiki
+hydra
+nemo
+pandoc-cli
+podman-desktop
+toolbox
+waydroid
+2025-04-18 19:34 删除了 pacman 包: bitwarden
+code
+2025-04-18 19:34 添加了 yay 包: azuredatastudio-bin
+azuredatastudio-bin-debug
+crunch
+crunch-debug
+imfile
+imfile-debug
+lazydocker
+lazydocker-debug
+msodbcsql
+mssql-tools
+podman-tui-debug
+pyprland-debug
+visual-studio-code-bin
+2025-04-18 19:34 删除了 yay 包: apifox
+readest
+readest-debug
