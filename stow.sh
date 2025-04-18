@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 特殊目录（需要先 rm -rf ~/.config/xxx 再 stow）
-special_dirs=("hypr" "fish" "wallust")
+special_dirs=("hypr" "fish" "wallust" "alacritty")
 
 # 没有 .config 但也需要 stow 的目录
 always_stow=("fcitx5_themes" "gitconfig")
