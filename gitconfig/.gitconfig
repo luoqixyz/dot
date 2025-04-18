@@ -1,7 +1,6 @@
 [core]
 	quotepath = false
 	editor = nvim
-	autocrlf = true
 [user]
 	name = luoqi
 	email = luoqi9421@163.com

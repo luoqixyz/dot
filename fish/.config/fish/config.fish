@@ -29,16 +29,16 @@ function updatesystem
     sudo pacman -Syyu --noconfirm && yay -Syyu --noconfirm
 end
 
-set -gx HTTP_PROXY http://127.0.0.1:7890
-set -gx HTTPS_PROXY http://127.0.0.1:7890
-set -gx ALL_PROXY http://127.0.0.1:7890
-# set -gx HTTP_PROXY http://10.1.1.22:7897
-# set -gx HTTPS_PROXY http://10.1.1.22:7897
-# set -gx ALL_PROXY http://10.1.1.22:7897
-set -gx EDITOR nvim
-set -gx VISUAL neovide
-set -gx PATH $HOME/.local/bin $PATH
-set -gx HSA_OVERRIDE_GFX_VERSION 10.3.0
+set -Ux HTTP_PROXY http://127.0.0.1:7890
+set -Ux HTTPS_PROXY http://127.0.0.1:7890
+set -Ux ALL_PROXY http://127.0.0.1:7890
+# set -Ux HTTP_PROXY http://10.1.1.22:7897
+# set -Ux HTTPS_PROXY http://10.1.1.22:7897
+# set -Ux ALL_PROXY http://10.1.1.22:7897
+set -Ux EDITOR nvim
+set -Ux VISUAL neovide
+set -Ux PATH $HOME/.local/bin $PATH
+set -Ux HSA_OVERRIDE_GFX_VERSION 10.3.0
 # fnm
 # node version manager
 fnm env --use-on-cd --shell fish | source
@@ -48,3 +48,5 @@ starship init fish | source
 fzf --fish | source
 # zoxide
 zoxide init fish | source
+set -gx TERM xterm-256color
+set -gx PATH $HOME/.cargo/bin $PATH
